@@ -16,13 +16,16 @@ export default {
         <router-link v-bind:to="'/'" :key="1">Produkt</router-link>
       </li>
       <li>
-        <router-link v-bind:to="'/hvem-er-vi'" :key="2">Hvem er vi</router-link>
+        <router-link v-bind:to="'/'" :key="2">Hvem er vi</router-link>
       </li>
       <li>
-        <router-link v-bind:to="'/kontakt'" :key="3">Kontakt</router-link>
+        <img src="@/assets/logo.png" height="100" width="100"/>
       </li>
       <li>
-        <router-link v-bind:to="'/cart'" :key="4">Shopping Cart</router-link>
+        <router-link v-bind:to="'/'" :key="3">Kontakt</router-link>
+      </li>
+      <li>
+        <router-link v-bind:to="'/shop'" :key="4">Shopping Cart</router-link>
       </li> 
     </ul>
   </div>
@@ -30,10 +33,10 @@ export default {
 
 <style scoped>
 .navbar {
-  height: 50%;
+  max-height: 20%;
   margin: 0;
   overflow: hidden;
-  background-color: #444444;
+  background-color: #dedede;
 }
 
 .navbar-content {
@@ -44,7 +47,7 @@ export default {
 
 .navbar-content li {
   display: flex;
-  margin: 15px 5px;
+  margin: 20px 5px;
   justify-content: center;
 }
 
@@ -61,7 +64,7 @@ export default {
 a {
   display: flex;
   position: relative;
-  color: #ffffff;
+  color: black;
   font-size: 20px;
   text-decoration: none;
   padding: 10px 25px;

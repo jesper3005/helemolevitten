@@ -15,7 +15,7 @@ export default {
     <input type="text" placeholder="Addresse">
     <input type="number" placeholder="Tlf nummer">
     <Shop />
-    <router-link class="link" v-bind:to="'/confirmation'" :key="1">Bekræft din ordre!</router-link>
+    <router-link class="confirm" v-bind:to="'/confirmation'" :key="1">Bekræft din ordre!</router-link>
   </div>
 </template>
 
@@ -24,6 +24,11 @@ export default {
     margin: auto;
     margin-top: 200px;
     width: 10%;
+  }
+
+  .confirm {
+    color: black;
+    font-size: 20px;
   }
 
   input {
