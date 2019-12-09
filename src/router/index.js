@@ -7,12 +7,16 @@ import Confirmation from '@/pages/Confirmation'
 Vue.use(Router)
 
 export default new Router({
+  mode: 'history',
   routes: [
     {
       path: '/',
       name: 'HomePage',
       component: HomePage,
       exact: true,
+      meta: {
+        title: 'Helemolevitten'
+      }
     },
     {
       path: '/shop',
