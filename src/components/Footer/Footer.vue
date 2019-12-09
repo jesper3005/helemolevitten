@@ -6,7 +6,7 @@ export default {
 
 <template>
   <div class="footer">
-    <h1>helemolevitten@gmail.com</h1>
+    <h1>helemolevittencph@gmail.com</h1>
     <p>Denne webside opsamler ingen data og er kun et led i et eksamens projekt</p>
   </div>
 </template>

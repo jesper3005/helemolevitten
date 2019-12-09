@@ -13,19 +13,19 @@ export default {
 
       <!-- Centered content -->
       <li>
-        <router-link v-bind:to="'/'" :key="1">Produkt</router-link>
+        <router-link v-bind:to="'/'" :key="1">PRODUKT</router-link>
       </li>
       <li>
-        <router-link v-bind:to="'/'" :key="2">Hvem er vi</router-link>
+        <router-link v-bind:to="'/'" :key="2">HVEM ER VI</router-link>
       </li>
       <li>
         <img src="@/assets/logo.png" height="100" width="100"/>
       </li>
       <li>
-        <router-link v-bind:to="'/'" :key="3">Kontakt</router-link>
+        <router-link v-bind:to="'/'" :key="3">KONTAKT</router-link>
       </li>
       <li>
-        <router-link v-bind:to="'/shop'" :key="4">Shopping Cart</router-link>
+        <router-link v-bind:to="'/shop'" :key="4">SHOP</router-link>
       </li> 
     </ul>
   </div>
@@ -42,12 +42,12 @@ export default {
 .navbar-content {
   margin: 0;
   display: flex;
-  padding: 0 10px;
+  padding: 0 0px;
 }
 
 .navbar-content li {
   display: flex;
-  margin: 20px 5px;
+  margin: auto;
   justify-content: center;
 }
 
@@ -59,6 +59,7 @@ export default {
 .navbar-content li:last-of-type {
   flex: 1 0 0;
   justify-content: right;
+  padding-left: 100px;
 }
 
 a {
@@ -68,6 +69,7 @@ a {
   font-size: 20px;
   text-decoration: none;
   padding: 10px 25px;
+  font-weight: bold;
 }
 
 svg {
